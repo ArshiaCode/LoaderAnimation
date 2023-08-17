@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+    background-color: lightcyan;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 20px solid lightgray;
+    border-top: 20px solid lightblue;
+    border-radius: 50%;
+    animation: loader 2s infinite linear;
+}
+@keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
